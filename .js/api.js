@@ -5,6 +5,7 @@ const uri="https://raw.githubusercontent.com/AxelGalaxyDev/API/main/";
 const el_lista = document.getElementById("lista-lambo");
 const el_caja = document.getElementById("caja");
 const el_titulo = document.querySelector("div#lambo-info h2");
+const el_desc = document.querySelector("#contenido-principal p");
 
 fetch(uri + "datos.json").then(function(respuesta) {
     return respuesta.json();
@@ -18,6 +19,7 @@ fetch(uri + "datos.json").then(function(respuesta) {
     nuevo_boton.addEventListener("click", function() {
       el_caja.src = uri + datos[i].imagen;
      el_titulo.innerHTML =  datos[i].nombre;
+      el_desc.innerHTML = datos[i].descripcion;
     });
    }
 }).catch(function(error) {
