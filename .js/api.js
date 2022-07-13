@@ -1,4 +1,6 @@
 
+let lambo_actual = 1;
+
 const uri="https://raw.githubusercontent.com/AxelGalaxyDev/API/main/";
 
 // ENCONTRAR ELEMENTOS DEL HTML//
@@ -24,4 +26,16 @@ fetch(uri + "datos.json").then(function(respuesta) {
    }
 }).catch(function(error) {
     console.log(error);
+});
+//BOTONES SIGUIENTE ANTERIOR//
+const el_siguiente = document.getElementById("siguiente");
+const el_anterior = documento.getElementById("anterior");
+
+el_siguiente.addEventListener("click", function() {
+  lambo_actual += 1;
+  obtener_lambo(lambo_actual);
+});
+
+el_anterior.addEventListener("click", function() {
+  
 });
