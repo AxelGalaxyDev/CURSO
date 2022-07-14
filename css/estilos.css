@@ -54,7 +54,9 @@ align-items: center;
 .contenedor {
     background-color:rgba(255, 255, 255, 0.245);
     border-radius: 16px;
-    padding: 8px;
+    padding: 30px;
+    margin : 15px;
+    
 }
 
 #caja {
