@@ -1,2 +1,13 @@
+@media screen and (max-width: 359px) {
+    .contenedor {
+        flex-direction: column;
+    }
 
+    h1 {
+        display: flex;
+    }
+    
+
+    
+}
 
