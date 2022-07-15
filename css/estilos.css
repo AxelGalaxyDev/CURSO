@@ -1,4 +1,7 @@
-
+#fondo {
+    background-image: url('fondotriangulito');
+    background-size: cover;
+}
 
 h1 {
     @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&display=swap');
