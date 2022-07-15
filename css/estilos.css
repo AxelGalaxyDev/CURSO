@@ -22,20 +22,14 @@ h1 {
 
 
 #lista-lambo button:hover {
-background-color: rgb(117, 117, 117);
-transition: 0.2s;
-display: block;
-padding: 10px;
-width: 100%;
-margin-top: 10px;
-border-radius: 12px;
-border-style: none;
-border-bottom-style: solid;
-max-width: 300px;
+    background-color: rgb(117, 117, 117);
+    transition: 0.2s;
+    display: block;
 
-
-}
-
+    
+    
+    }
+    
 
 .caja {
 text-align: center;
@@ -55,25 +49,26 @@ align-items: center;
     background-color:rgba(255, 255, 255, 0.245);
     border-radius: 16px;
     padding: 30px;
-    margin : 15px;
+    margin: 15px;
     color:rgb(255, 255, 255);
     font-size: 27px;
+    
 }
+
 
 #caja {
     width: 700px;
    
     border-radius: 30px;
 
+    
 }
-
 #lista-lambo {
     width: 1300px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
-
 #lambo-info {
 
     width: 100%;
@@ -85,6 +80,8 @@ align-items: center;
 
 
 }
+
+
 #nav {
     display: flex;
     justify-content: space-between;
@@ -116,15 +113,16 @@ align-items: center;
     text-align: center;
 }
 
+#logo {
+    width: 260px; 
+    height: 180px; 
+    border-radius: 16px; 
+    box-shadow: 2px 2px rgb(152, 152, 152); 
+}
+
+
 #fondo {
     background-image: url('fondotriangulito');
     background-size: cover;
     font-size: 22px;
-}
-
-#logo {
-    width:"260px"; 
-    height:"180px"; 
-    border-radius: 16px; 
-    box-shadow: 2px 2px rgb(152, 152, 152);
 }
