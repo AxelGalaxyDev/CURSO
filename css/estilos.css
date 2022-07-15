@@ -115,7 +115,7 @@ align-items: center;
     text-align: center;
 }
 
-#logo {
+.logo {
     width: 260px; 
     height: 180px; 
     border-radius: 16px; 
