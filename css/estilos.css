@@ -114,3 +114,9 @@ align-items: center;
     padding: 6px;
     text-align: center;
 }
+
+#fondo {
+    background-image: url('fondotriangulito');
+    background-size: cover;
+    font-size: 22px;
+}
