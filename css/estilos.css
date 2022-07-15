@@ -1,8 +1,3 @@
-#fondo {
-    background-image: url('fondotriangulito');
-    background-size: cover;
-}
-
 h1 {
     @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&display=swap');
     font-family: 'Caveat', cursive;
@@ -51,28 +46,29 @@ align-items: center;
 }
 
 .contenedor {
-    background-color:rgba(255, 255, 255, 0.245);
+    background-color:rgba(255, 255, 255, 0.235);
     border-radius: 16px;
     padding: 30px;
     margin: 15px;
     color:rgb(255, 255, 255);
-    font-size: 27px; 
+    font-size: 27px;
 }
 
 
 #caja {
     width: 700px;
-   
     border-radius: 30px;
 
     
 }
+
 #lista-lambo {
     width: 1300px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
+
 #lambo-info {
     width: 100%;
     height: 1000px;
@@ -114,7 +110,7 @@ align-items: center;
     text-align: center;
 }
 
-.logo {
+#logo {
     width: 260px; 
     height: 180px; 
     border-radius: 16px; 
@@ -122,6 +118,11 @@ align-items: center;
 }
 
 
+#fondo {
+    background-image: url('imagenes/fondotriangulito');
+    background-size: cover;
+    
+}
 
 .texto-centrado-contenedor {
     background-color:rgba(255, 255, 255, 0.235);
@@ -131,4 +132,3 @@ align-items: center;
     color:rgb(255, 255, 255);
     font-size: 27px;
 }
-
