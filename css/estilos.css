@@ -130,6 +130,6 @@ align-items: center;
 }
 
 #fondo {
-    background-size: cover;
     background-image: url('fondotriangulito');
+    background-size: cover;
 }
