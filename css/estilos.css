@@ -107,3 +107,10 @@ align-items: center;
     color:aliceblue; 
     font-size: 50px;
 }
+
+.encabezado-class{
+    background-color:rgba(255, 255, 255, 0.245);
+    border-radius: 16px;
+    padding: 6px;
+    text-align: center;
+}
