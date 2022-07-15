@@ -122,7 +122,7 @@ align-items: center;
 
 
 #fondo {
-    background-image: url('fondotriangulito');
+    background-image: url('imagenes/fondotriangulito');
     background-size: cover;
     font-size: 22px;
 }
