@@ -121,3 +121,10 @@ align-items: center;
     background-size: cover;
     font-size: 22px;
 }
+
+#logo {
+    width:"260px"; 
+    height:"180px"; 
+    border-radius: 16px; 
+    box-shadow: 2px 2px rgb(152, 152, 152);
+}
