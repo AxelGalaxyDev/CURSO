@@ -1,8 +1,4 @@
-#fondo {
-    background-image: url('imagenes/fondotriangulito');
-    background-size: cover;
-    font-size: 22px;
-}
+
 
 h1 {
     @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&display=swap');
@@ -131,4 +127,9 @@ align-items: center;
     margin: 15px;
     color:rgb(255, 255, 255);
     font-size: 27px;
+}
+
+#fondo {
+    background-size: cover;
+    
 }
