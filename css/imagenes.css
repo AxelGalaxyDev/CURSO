@@ -1,0 +1,50 @@
+#body {
+    background-image: url('fondolambo');
+    background-size: cover;
+ }
+ 
+ #caja-gigante {
+     background-color: rgba(0, 0, 0, 0.354);
+     border-radius: 16px;
+     padding: 6px;
+     text-align: center;
+     height: auto;
+     margin: 20px;
+     
+     
+     
+ }
+ 
+ .caja { 
+     text-align: center; 
+     border-style: solid; 
+     border-radius: 16px; 
+     border-color:aqua; 
+     background-color: aliceblue; 
+     margin: 24px; 
+     width: 1000px;
+     height: 700px;
+     font-size: 35px;
+     
+ 
+     
+     
+ }
+ 
+ .imagen {
+     align-items: flex-end;
+     width: 800px;
+     height: 500px;
+     display: flex;
+     padding: 50px;
+     
+     
+ }
+ 
+ .nombre {
+     
+     color:black;
+     
+     
+ }
+ 
