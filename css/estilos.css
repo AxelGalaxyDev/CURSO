@@ -63,7 +63,7 @@ align-items: center;
 }
 
 #lista-lambo {
-    width: 1300px;
+    
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
