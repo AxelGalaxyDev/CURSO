@@ -79,24 +79,7 @@ align-items: center;
 }
 
 
-#nav {
-    display: flex;
-    justify-content: space-between;
 
-  
-
-
-}
-
-#nav button {
-    min-height: 40px;
-    margin: 20px;
-    background-color: rgb(255, 136, 0);
-    box-shadow: rgb(0, 0, 176);
-    font-size: 30px;
-    
-    
-}
 
 #titulo{
     color:aliceblue; 
