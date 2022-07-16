@@ -1,6 +1,7 @@
 #body {
     background-image: url('fondolambo');
     background-size: cover;
+    font-size: 35px;
  }
  
  #caja-gigante {
@@ -37,12 +38,12 @@
      height: 500px;
      display: flex;
      padding: 50px;
-     
+     font-size: 35px;
      
  }
  
  .nombre {
-     
+     font-size: 35px;
      color:black;
      
      
