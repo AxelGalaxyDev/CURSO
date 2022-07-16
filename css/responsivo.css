@@ -1,13 +1,34 @@
-@media screen and (max-width: 359px) {
-    .contenedor {
+@media screen and (max-width: 375px) {
+    
+    #caja {
+        width: 100%;
+        border-radius: 30px;
+    }
+    
+    #lista-lambo{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    
+    #contenido-principal {
+        display: flex;
         flex-direction: column;
     }
 
-    h1 {
-        display: flex;
+    .texto-centrado-contenedor {
+        height: 100%;
     }
+
+    #lambo-info {
+        height:max-content ;
+    }
+    
+}
+
+@media  screen and (max-width:768px ){
+    
     
 
     
 }
-
