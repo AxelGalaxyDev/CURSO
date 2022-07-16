@@ -18,6 +18,7 @@
 
     .texto-centrado-contenedor {
         height: 100%;
+        width: max-content;
     }
 
     #lambo-info {
