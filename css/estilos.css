@@ -70,8 +70,7 @@ align-items: center;
 }
 
 #lambo-info {
-    width: 100%;
-    
+    width: auto;
     font-size: 40px;
     color: white;
     align-items: center;
