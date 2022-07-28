@@ -34,8 +34,8 @@
 }
  
  .imagen {
+    width: -webkit-fill-aviable;
      width: 100%;
-     height: 500px;
 
      
     
