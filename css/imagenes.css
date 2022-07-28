@@ -55,5 +55,9 @@
 
 #urraco {
     width: 750px;
-    height: 450px;
+    height: auto;
+}
+
+.caja {
+    height: auto;
 }
