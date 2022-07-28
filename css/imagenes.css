@@ -2,7 +2,7 @@
     background-image: url('fondolambo');
     background-size: cover;
     font-size: 35px;
- }
+}
  
  #caja-gigante {
      background-color: rgba(255, 255, 255, 0.354);
@@ -14,7 +14,7 @@
      
      
      
- }
+}
  
  .caja { 
      text-align: center; 
@@ -30,7 +30,7 @@
  
      
      
- }
+}
  
  .imagen {
      align-items: flex-end;
@@ -40,14 +40,14 @@
      padding: 50px;
     
      
- }
+}
  
  .nombre {
      font-size: 35px;
      color:black;
      
      
- }
+}
  
  .letra {
     font-size: 35px;
